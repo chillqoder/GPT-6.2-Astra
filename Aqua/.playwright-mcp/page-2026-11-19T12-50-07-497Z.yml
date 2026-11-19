@@ -1,0 +1,26 @@
+- main "Living Glass" [ref=e2]:
+  - generic "Interactive three-dimensional aquarium. Drag to orbit, scroll to zoom, and shift-drag to pan." [ref=e3]
+  - generic:
+    - generic:
+      - generic:
+        - generic: Aquarium Observatory
+        - heading "Living Glass" [level=1]:
+          - text: Living
+          - emphasis: Glass
+      - generic:
+        - status: Live
+        - time: 00:00
+    - generic [aria-hidden]:
+      - generic: Drag to orbit
+      - generic: Scroll to zoom
+    - generic:
+      - region "Fish species identification key":
+        - heading "Species key" [level=2]
+        - list:
+          - listitem: Fancy guppy
+          - listitem: Clownfish
+          - listitem: Angelfish
+          - listitem: Betta
+      - generic [ref=e4]:
+        - button "Pause" [ref=e5] [cursor=pointer]
+        - button "Reset view" [ref=e10] [cursor=pointer]

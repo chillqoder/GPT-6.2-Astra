@@ -1,0 +1,207 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e3]:
+    - link "Odd Signal home" [ref=e4] [cursor=pointer]:
+      - /url: "#top"
+      - text: ODD SIGNAL
+      - superscript [ref=e13]: ®
+    - navigation "Main navigation" [ref=e14]:
+      - link "Selected work" [ref=e15] [cursor=pointer]:
+        - /url: "#work"
+      - link "Process" [ref=e16] [cursor=pointer]:
+        - /url: "#process"
+      - link "Rates" [ref=e17] [cursor=pointer]:
+        - /url: "#rates"
+    - link "Get in touch" [ref=e18] [cursor=pointer]:
+      - /url: "#contact"
+  - main [ref=e20]:
+    - region [ref=e21]:
+      - generic [ref=e22]:
+        - generic [ref=e23]:
+          - paragraph [ref=e24]: Independent vibe coding studio
+          - heading "VIBES IN. APPS OUT." [level=1] [ref=e26]:
+            - generic [ref=e27]: VIBES IN.
+            - generic [ref=e29]: APPS OUT.
+          - paragraph [ref=e30]: A half-sentence. A strange obsession. A sketch on a napkin. We tune your raw ideas into working software.
+          - generic [ref=e31]:
+            - link "Start a project" [ref=e32] [cursor=pointer]:
+              - /url: "#contact"
+              - text: Start a project
+              - generic [aria-hidden] [ref=e33]: ▂▆█▃
+            - button "Tune the receiver" [ref=e34] [cursor=pointer]
+        - generic [ref=e36]:
+          - generic [ref=e42]: OS / RX–01
+          - button "Live 3D" [ref=e43] [cursor=pointer]:
+            - generic [aria-hidden] [ref=e44]: ◇
+          - img "Custom silver Odd Signal receiver with an orange tuning dial and an acid-green oscilloscope trace."
+          - generic [ref=e46]:
+            - generic [ref=e48]: Fig. A
+            - text: Idea receiver
+      - generic "Studio specialties" [ref=e49]:
+        - generic [ref=e50]: Signal online
+        - generic [ref=e53]:
+          - generic [ref=e54]:
+            - text: Creative development
+            - generic [ref=e55]: ✳
+            - text: Web apps
+            - generic [ref=e56]: ✳
+            - text: Interactive sites
+            - generic [ref=e57]: ✳
+            - text: Custom tools
+            - generic [ref=e58]: ✳
+            - text: Strange experiments
+            - generic [ref=e59]: ✳
+          - generic [aria-hidden] [ref=e60]:
+            - text: Creative development
+            - generic [ref=e61]: ✳
+            - text: Web apps
+            - generic [ref=e62]: ✳
+            - text: Interactive sites
+            - generic [ref=e63]: ✳
+            - text: Custom tools
+            - generic [ref=e64]: ✳
+            - text: Strange experiments
+            - generic [ref=e65]: ✳
+    - region [ref=e66]:
+      - generic [ref=e67]:
+        - generic [ref=e68]:
+          - paragraph [ref=e69]: Studio output
+          - heading "On the bench." [level=2] [ref=e71]
+        - generic [ref=e72]:
+          - text: Self-initiated builds
+          - generic [ref=e73]: / 02
+      - generic [ref=e74]:
+        - article [ref=e75]:
+          - button "Play Patchbay, a browser step sequencer" [ref=e76] [cursor=pointer]:
+            - img "A gloved finger on a handmade silver sampler, with orange patch leads." [ref=e77]
+            - generic [ref=e78]: Play build
+          - generic [ref=e80]:
+            - generic [ref=e81]:
+              - paragraph [ref=e82]: Audio tool / Browser
+              - heading "Patchbay" [level=3] [ref=e83]
+            - paragraph [ref=e84]: An eight-step loop machine for the beat stuck in your head.
+        - article [ref=e85]:
+          - button "Play Afterimage, a pocket poster printer" [ref=e86] [cursor=pointer]:
+            - img "A silver thermal printer spills a long typographic receipt onto an orange workbench." [ref=e87]
+            - generic [ref=e88]: Play build
+          - generic [ref=e90]:
+            - generic [ref=e91]:
+              - paragraph [ref=e92]: Print toy / Browser
+              - heading "Afterimage" [level=3] [ref=e93]
+            - paragraph [ref=e94]: Feed it a phrase. Pull out a pocket-sized digital poster.
+    - region [ref=e95]:
+      - generic [ref=e96]:
+        - paragraph [ref=e97]: Input jack
+        - heading "What have you got?" [level=2] [ref=e99]: What haveyou got?
+        - paragraph [ref=e100]: Pick a starting point. This is the sort of thing we like finding in our inbox.
+      - generic [ref=e101]:
+        - generic "Starting points" [ref=e102]:
+          - button "Half-sentence" [pressed] [ref=e103] [cursor=pointer]
+          - button "Mood" [ref=e104] [cursor=pointer]
+          - button "Pet peeve" [ref=e105] [cursor=pointer]
+        - generic [ref=e106]:
+          - paragraph [ref=e107]: Incoming
+          - blockquote [ref=e108]: “A radio station for the sounds on my walk home.”
+          - paragraph [ref=e109]: Decoded build
+          - paragraph [ref=e110]: A tiny sound map. Tap a corner and hear the street that lives there.
+    - region [ref=e111]:
+      - generic [ref=e112]:
+        - paragraph [ref=e113]: Studio process
+        - heading "The signal path." [level=2] [ref=e115]
+      - generic [ref=e116]:
+        - group [ref=e117]:
+          - generic "IN Find the frequency" [ref=e118] [cursor=pointer]:
+            - generic [ref=e119]: IN
+            - text: Find the frequency
+          - paragraph [ref=e121]: We sit with the idea, trade references, and find the one action that would make it click. You get a scope and a fixed quote.
+        - group [ref=e122]:
+          - generic "MOD Make it playable" [ref=e123] [cursor=pointer]:
+            - generic [ref=e124]: MOD
+            - text: Make it playable
+        - group [ref=e126]:
+          - generic "OUT Hand over the keys" [ref=e127] [cursor=pointer]:
+            - generic [ref=e128]: OUT
+            - text: Hand over the keys
+    - region [ref=e130]:
+      - paragraph [ref=e131]: Services & rates
+      - heading "Pick a bandwidth." [level=2] [ref=e133]
+      - generic [ref=e134]:
+        - generic [ref=e135]:
+          - generic [ref=e136]:
+            - text: 02–03 days
+            - heading "Signal test" [level=3] [ref=e137]
+          - paragraph [ref=e138]: One strange idea, one core interaction, one playable prototype to pass around.
+          - strong [ref=e139]: $900
+          - button "Choose test" [ref=e140] [cursor=pointer]
+        - generic [ref=e141]:
+          - generic [ref=e142]:
+            - text: 01–02 weeks
+            - heading "Shortwave" [level=3] [ref=e143]
+          - paragraph [ref=e144]: A focused web tool or interactive site, tuned for phones and ready to launch.
+          - strong [ref=e145]: From $2,800
+          - button "Choose shortwave" [ref=e146] [cursor=pointer]
+        - generic [ref=e147]:
+          - generic [ref=e148]:
+            - text: 03–05 weeks
+            - heading "Full spectrum" [level=3] [ref=e149]
+          - paragraph [ref=e150]: A small software product with connected flows, persistent data, and a handover.
+          - strong [ref=e151]: From $6,500
+          - button "Choose full spectrum" [ref=e152] [cursor=pointer]
+    - region [ref=e153]:
+      - generic [ref=e162]:
+        - paragraph [ref=e163]: House frequency
+        - heading [level=2] [ref=e165]:
+          - text: Keep the
+          - emphasis [ref=e166]: odd bit.
+        - paragraph [ref=e167]: Most ideas have a detail that makes them hard to explain. A sound, a gesture, a rule that only makes sense once you try it. That’s the first thing we build.
+    - region [ref=e168]:
+      - generic [ref=e169]:
+        - paragraph [ref=e170]: Before you transmit
+        - heading "Signal check." [level=2] [ref=e172]
+      - generic [ref=e173]:
+        - group [ref=e174]:
+          - generic "How much of an idea do I need?" [ref=e175] [cursor=pointer]
+        - group [ref=e177]:
+          - generic "What does vibe coding mean here?" [ref=e178] [cursor=pointer]
+        - group [ref=e180]:
+          - generic "Who owns the finished build?" [ref=e181] [cursor=pointer]
+        - group [ref=e183]:
+          - generic "Can you work with an existing product?" [ref=e184] [cursor=pointer]
+    - region [ref=e186]:
+      - generic [ref=e187]:
+        - paragraph [ref=e188]: Receiving transmissions
+        - heading "Your turn to transmit." [level=2] [ref=e190]: Your turnto transmit.
+        - paragraph [ref=e191]: Tell us what’s been rattling around in your head. A couple of lines will do.
+        - link "hello@oddsignal.example" [ref=e192] [cursor=pointer]:
+          - /url: mailto:hello@oddsignal.example
+      - generic [ref=e193]:
+        - generic [ref=e194]: The rough idea
+        - textbox "The rough idea" [ref=e195]:
+          - /placeholder: I keep thinking about a thing that…
+        - generic [ref=e196]:
+          - generic [ref=e197]:
+            - generic [ref=e198]: Direction
+            - combobox "Direction" [ref=e199] [cursor=pointer]:
+              - option "Still exploring" [selected]
+              - option "Interactive site"
+              - option "Custom tool"
+              - option "Web app"
+          - generic [ref=e200]:
+            - generic [ref=e201]: Bandwidth
+            - combobox "Bandwidth" [ref=e202] [cursor=pointer]:
+              - option "Help me choose" [selected]
+              - option "Signal test"
+              - option "Shortwave"
+              - option "Full spectrum"
+        - generic [ref=e203]:
+          - button "Open email draft" [ref=e204] [cursor=pointer]
+          - button "Save brief (.txt)" [ref=e205] [cursor=pointer]
+        - status [ref=e206]
+      - generic [ref=e207]:
+        - link "Odd Signal home" [ref=e208] [cursor=pointer]:
+          - /url: "#top"
+          - text: ODD SIGNAL
+          - superscript [ref=e217]: ®
+        - link "Back to receiver ↑" [ref=e218] [cursor=pointer]:
+          - /url: "#top"

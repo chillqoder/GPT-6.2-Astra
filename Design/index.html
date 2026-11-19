@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#d1ff38">
+  <meta name="description" content="Odd Signal — независимая студия вайб-кодинга. Приносите недодуманную идею. Уходите с работающим софтом.">
+  <title>Odd Signal® — студия вайб-кодинга</title>
+  <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/martian-grotesk.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="style.css">
+  <script src="receiver.js" defer></script>
+  <script src="studio.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Перейти к содержимому</a>
+<header class="mast">
+  <a href="#top" class="brand" aria-label="Odd Signal — на главную"><span class="brand-wave" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>ODD SIGNAL<sup>®</sup></a>
+  <nav aria-label="Основная навигация"><a href="#work">Работы</a><a href="#process">Процесс</a><a href="#rates">Цены</a></nav>
+  <a class="nav-contact" href="#contact"><span class="status-led"></span> Связаться</a>
+</header>
+<main id="main">
+<section id="top" class="hero" aria-labelledby="hero-title">
+  <div class="hero-inner">
+    <div class="hero-intro">
+      <p class="kicker"><span class="slashes" aria-hidden="true"></span> Независимая студия вайб-кодинга</p>
+      <h1 id="hero-title"><span>ВХОД: ВАЙБ.<i class="burst" aria-hidden="true"></i></span><span>ВЫХОД: СОФТ.</span></h1>
+      <p class="hero-copy">Полфразы. Странная одержимость. Набросок на салфетке. Мы настраиваем сырые идеи, пока они не&nbsp;станут работающим софтом.</p>
+      <div class="hero-actions"><a class="primary" href="#contact">Начать проект <span class="mini-wave" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span></a><button type="button" class="play-link" id="hero-tune" aria-controls="instrument"><i class="play-icon" aria-hidden="true"></i>Настроить приёмник</button></div>
+    </div>
+    <div class="instrument" id="instrument">
+      <div class="plot" aria-hidden="true"></div><i class="cross tl" aria-hidden="true"></i><i class="cross tr" aria-hidden="true"></i><i class="cross bl" aria-hidden="true"></i><i class="cross br" aria-hidden="true"></i>
+      <div class="instrument-label mono">OS / RX–01</div>
+      <button type="button" class="mode-toggle mono" id="mode-toggle" aria-pressed="false"><svg class="cube-icon" aria-hidden="true" width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor"><path d="m8 1 6 3.5v7L8 15l-6-3.5v-7L8 1Zm-6 3.5L8 8l6-3.5M8 8v7"/></svg> <span id="mode-text">Живое 3D</span></button>
+      <img class="receiver-art" src="assets/receiver.webp" alt="Серебристый приёмник Odd Signal ручной сборки: оранжевая ручка настройки и кислотно-зелёная кривая на экране осциллографа." fetchpriority="high">
+      <canvas id="receiver-canvas" tabindex="-1" hidden aria-label="Живой 3D-приёмник сигнала. Крутите оранжевую ручку, чтобы настроить направление проекта, нижнюю — чтобы задать объём. Тяните за корпус, чтобы повернуть. Стрелки влево и вправо настраивают частоту, стрелки вверх и вниз задают объём."></canvas>
+      <div class="instrument-caption mono"><span class="caption-line"></span><b>Рис. А</b> &nbsp; Приёмник идей</div>
+      <div class="tune-controls" hidden>
+        <p class="dial-help mono">Ручки — настройка · Корпус — поворот</p><div class="tune-line"><label class="mono" for="tuner">Частота</label><output class="mono" for="tuner" id="frequency">92,4 МГц</output></div>
+        <input type="range" id="tuner" min="0" max="100" value="32" aria-label="Настройка частоты проекта">
+        <div class="tune-line tune-result"><div class="tune-output" aria-live="polite"><span id="channel-name">Интерактивный сайт</span><button type="button" id="scope-step" title="Переключить объём проекта" aria-label="Переключить объём проекта">Проба сигнала</button></div><button id="use-signal" type="button">В бриф</button></div>
+      </div>
+    </div>
+  </div>
+  <div class="signal-strip" aria-label="Специализации студии"><div class="strip-status"><i class="status-led"></i> Сигнал в эфире</div><div class="ticker"><div class="ticker-track"><span>Креативная разработка <i>✳</i> Веб-приложения <i>✳</i> Интерактивные сайты <i>✳</i> Инструменты под задачу <i>✳</i> Странные эксперименты <i>✳</i></span><span aria-hidden="true">Креативная разработка <i>✳</i> Веб-приложения <i>✳</i> Интерактивные сайты <i>✳</i> Инструменты под задачу <i>✳</i> Странные эксперименты <i>✳</i></span></div></div></div>
+</section>
+<section id="work" class="work paper pad" aria-labelledby="work-title">
+  <div class="section-heading"><div><p class="kicker"><i class="tiny-square"></i> Выходной сигнал</p><h2 id="work-title">На верстаке<span class="orange">.</span></h2></div><div class="work-count mono">Собственные сборки <span>/ 02</span></div></div>
+  <div class="work-pair">
+    <article class="work-item"><button class="work-shot" data-demo="patchbay" aria-label="Запустить Patchbay — пошаговый секвенсор в браузере"><img src="assets/patchbay.webp" alt="Палец в перчатке на самодельном серебристом сэмплере с оранжевыми патч-кабелями." loading="lazy"><span class="launch"><i class="play-icon"></i>Запустить</span></button><div class="work-caption"><div><p class="project-tag mono">Аудиоинструмент / Браузер</p><h3>Patchbay</h3></div><p>Луп-машина на восемь шагов — для бита, который засел в&nbsp;голове.</p></div></article>
+    <article class="work-item"><button class="work-shot" data-demo="afterimage" aria-label="Запустить Afterimage — карманный принтер постеров"><img src="assets/afterimage.webp" alt="Серебристый термопринтер выпускает длинный типографический чек на оранжевый верстак." loading="lazy"><span class="launch"><i class="play-icon"></i>Запустить</span></button><div class="work-caption"><div><p class="project-tag mono">Печатная игрушка / Браузер</p><h3>Afterimage</h3></div><p>Скормите ему фразу. Заберите цифровой постер карманного формата.</p></div></article>
+  </div>
+</section>
+<section id="input" class="input-block pad" aria-labelledby="input-title">
+  <div><p class="kicker"><i class="tiny-square"></i> Входное гнездо</p><h2 id="input-title">С&nbsp;чем <br>пришли?</h2><p class="measure">Выберите отправную точку. Примерно такое мы любим находить во&nbsp;входящих.</p></div>
+  <div class="input-console"><div class="input-options" aria-label="Отправные точки"><button type="button" aria-pressed="true" data-input="sentence">Полфразы</button><button type="button" aria-pressed="false" data-input="mood">Настроение</button><button type="button" aria-pressed="false" data-input="itch">Что бесит</button></div><div class="input-reading" aria-live="polite"><p class="mono">Входящий сигнал</p><blockquote id="incoming">«Радиостанция из звуков по дороге домой.»</blockquote><p class="mono">Расшифровка: что соберём</p><p id="decoded">Крошечная звуковая карта. Коснитесь перекрёстка — и услышите улицу, которая там живёт.</p></div></div>
+</section>
+<section id="process" class="paper pad process" aria-labelledby="process-title">
+  <div><p class="kicker"><i class="tiny-square"></i> Процесс студии</p><h2 id="process-title">Путь сигнала<span class="orange">.</span></h2></div>
+  <div class="process-list">
+    <details open><summary><span class="mono">ВХ</span> Ловим частоту<i></i></summary><p>Вживаемся в идею, обмениваемся референсами и находим то самое действие, после которого всё щёлкнет. Вы получаете объём работ и фиксированную цену.</p></details>
+    <details><summary><span class="mono">МОД</span> Даём потрогать<i></i></summary><p>Отдаём вам в руки черновую сборку. Вы кликаете, ломаете и рассказываете, какие места кажутся живыми. Под них мы и настраиваем следующую версию.</p></details>
+    <details><summary><span class="mono">ВЫХ</span> Отдаём ключи<i></i></summary><p>Проверяем крайние случаи и выпускаем согласованную сборку. Вы получаете исходники, заметки по запуску и разбор проекта — чтобы штука жила и без нас.</p></details>
+  </div>
+</section>
+<section id="rates" class="rates pad" aria-labelledby="rates-title">
+  <p class="kicker"><i class="tiny-square"></i> Услуги и цены</p><h2 id="rates-title">Выберите полосу<span>.</span></h2>
+  <div class="rate-list">
+    <div class="rate-row"><div><span class="mono">02–03 дня</span><h3>Проба сигнала</h3></div><p>Одна странная идея, одно ключевое взаимодействие, один играбельный прототип, который можно пустить по рукам.</p><strong>900&nbsp;$</strong><button data-package="Проба сигнала">Выбрать пробу</button></div>
+    <div class="rate-row"><div><span class="mono">01–02 недели</span><h3>Короткая волна</h3></div><p>Сфокусированный веб-инструмент или интерактивный сайт: настроен под телефоны и готов к запуску.</p><strong>от&nbsp;2&nbsp;800&nbsp;$</strong><button data-package="Короткая волна">Выбрать волну</button></div>
+    <div class="rate-row"><div><span class="mono">03–05 недель</span><h3>Полный спектр</h3></div><p>Небольшой программный продукт со связанными сценариями, хранением данных и передачей проекта.</p><strong>от&nbsp;6&nbsp;500&nbsp;$</strong><button data-package="Полный спектр">Выбрать спектр</button></div>
+  </div>
+</section>
+<section id="studio" class="studio-block pad" aria-labelledby="studio-title"><div class="studio-symbol" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div><p class="kicker"><i class="tiny-square"></i> Частота студии</p><h2 id="studio-title">Странное<br><em>оставляем.</em></h2><p class="measure">Почти у каждой идеи есть деталь, из-за которой её трудно объяснить. Звук, жест, правило, которое становится понятным, только когда попробуешь. С неё мы и начинаем сборку.</p></div></section>
+<section id="faq" class="paper pad questions" aria-labelledby="faq-title">
+  <div><p class="kicker"><i class="tiny-square"></i> Перед выходом в эфир</p><h2 id="faq-title">Проверка связи<span class="orange">.</span></h2></div>
+  <div class="question-list">
+    <details><summary>Сколько идеи нужно для начала?<i></i></summary><p>Хватит одной вещи, которой вам не хватает в мире. Голосовое, набросок или фраза о том, кто этим будет пользоваться, — уже есть с чего начать.</p></details>
+    <details><summary>Что здесь значит «вайб-кодинг»?<i></i></summary><p>Мы проектируем, делая. С помощью ИИ пишем код, чтобы сразу проверить самое рискованное взаимодействие, а потом правим, тестируем и доводим, пока оно не начнёт уверенно работать у вас в руках.</p></details>
+    <details><summary>Кому принадлежит готовая сборка?<i></i></summary><p>После финальной оплаты дизайн и код, сделанные на заказ, принадлежат вам. Сторонние компоненты и их лицензии мы перечисляем при передаче проекта.</p></details>
+    <details><summary>Вы работаете с уже готовым продуктом?<i></i></summary><p>Да. Расскажите, какая часть буксует и на каком стеке всё собрано. Прежде чем оценивать доработку, мы проверим, подходит ли нам задача.</p></details>
+  </div>
+</section>
+<section id="contact" class="contact pad" aria-labelledby="contact-title">
+  <div><p class="kicker"><span class="status-led"></span> Идёт приём</p><h2 id="contact-title">Ваш выход<br>в эфир<span class="orange">.</span></h2><p class="measure">Расскажите, что не выходит у вас из головы. Пары строк хватит.</p><a class="email-link" id="studio-email" href="mailto:hello@oddsignal.example">hello@oddsignal.example</a></div>
+  <form id="brief-form"><label for="idea">Идея начерно</label><textarea id="idea" maxlength="3000" required placeholder="Никак не выкину из головы одну штуку, которая…"></textarea><div class="form-row"><div><label for="direction">Направление</label><select id="direction"><option>Пока ищу</option><option>Интерактивный сайт</option><option>Свой инструмент</option><option>Веб-приложение</option></select></div><div><label for="package">Полоса</label><select id="package"><option>Помогите выбрать</option><option>Проба сигнала</option><option>Короткая волна</option><option>Полный спектр</option></select></div></div><div class="form-actions"><button class="primary" type="submit">Открыть черновик письма</button><button class="text-button" type="button" id="save-brief">Сохранить бриф (.txt)</button></div><p class="form-status" role="status" id="brief-status"></p></form>
+  <footer><a href="#top" class="brand" aria-label="Odd Signal — на главную"><span class="brand-wave" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>ODD SIGNAL<sup>®</sup></a><a href="#top" class="mono">Назад к приёмнику ↑</a></footer>
+</section>
+</main>
+<dialog id="demo-dialog" aria-labelledby="demo-title"><div class="dialog-head"><span class="mono">Odd Signal / Верстак</span><button class="close-dialog" aria-label="Закрыть эксперимент">×</button></div><div class="demo-body"><h2 id="demo-title">Patchbay</h2><div id="demo-content"></div></div></dialog>
+</body>
+</html>

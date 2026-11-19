@@ -1,0 +1,36 @@
+- main "Living Glass" [ref=f2e2]:
+  - generic "Interactive three-dimensional aquarium. Drag to orbit, scroll to zoom, shift-drag to pan, and tap the glass to startle the fish." [ref=f2e3]
+  - generic:
+    - generic:
+      - generic:
+        - generic: Aquarium Observatory
+        - heading "Living Glass" [level=1]:
+          - text: Living
+          - emphasis: Glass
+      - generic:
+        - status: Live
+        - time: 00:00
+    - generic:
+      - generic [aria-hidden]:
+        - generic: Drag to orbit
+        - generic: Scroll to zoom
+        - generic: Tap the glass
+      - generic:
+        - region "Species identification key":
+          - heading "Species key" [level=2]
+          - list:
+            - listitem: Fancy guppy
+            - listitem: Clownfish
+            - listitem: Neon tetras
+            - listitem: Betta
+            - listitem: Seahorse
+        - generic [ref=f2e4]:
+          - button "Pause or resume" [ref=f2e5] [cursor=pointer]:
+            - generic [ref=f2e9]: Pause
+          - button "Reset view" [ref=f2e10] [cursor=pointer]
+          - button "Feed the fish" [ref=f2e13] [cursor=pointer]:
+            - generic [ref=f2e20]: Feed
+          - button "Day and night" [ref=f2e21] [cursor=pointer]
+          - button "Ambient sound" [ref=f2e25] [cursor=pointer]
+          - generic "Filter strength" [ref=f2e29]:
+            - slider "Filter strength" [ref=f2e32] [cursor=pointer]: "50"
